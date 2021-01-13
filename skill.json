@@ -1,0 +1,16 @@
+{
+    "language": ["HTML", "JavaScript", "php(and WordPress)", "Java", "Node.JS"],
+    "tool": {
+        "Dev": ["VSCode", "Eclips", "MySQL"],
+        "UX": ["Adobe XD", "Zeplin", "Protopie", "Sketch"],
+        "QA" : ["JIRA", "Mantis", "ASANA(with Instagantt)"],
+        "SEO": {
+            "Naver": ["Webmaster", "Analytics", "Search API"],
+            "Google": ["Webmaster", "Analytics"]
+        },
+        "Documantation": {
+            "Microsoft": ["Word", "PowerPoint", "Excel", "Outlook", "Onenote", "Github"],
+            "Google": "Docs(Drive)"
+        }
+    }
+}
