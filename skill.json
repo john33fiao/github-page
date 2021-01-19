@@ -1,11 +1,15 @@
 {
-    "language": ["HTML", "JavaScript", "php(and WordPress)", "Java", "Node.JS"],
+    "language": {
+        "Human": ["Korean", "English"],
+        "Computer": ["HTML5(CSS, JS)", "PHP(5.5 ~, WordPress)", "Java(GUI, Spring, etc)", "SQL"]
+    },
     "tool": {
         "Dev": ["VSCode", "Eclips", "MySQL"],
         "UX": ["Adobe XD", "Zeplin", "Protopie", "Sketch"],
-        "QA" : ["JIRA", "Mantis", "ASANA(with Instagantt)"],
+        "QA": ["JIRA", "Mantis", "ASANA(with Instagantt)"],
         "SEO": {
             "Naver": ["Webmaster", "Analytics", "Search API"],
+            "Kakao" : ["Business", "Search API"],
             "Google": ["Webmaster", "Analytics"]
         },
         "Documantation": {
