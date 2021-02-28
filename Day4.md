@@ -83,7 +83,7 @@
 
 ### HTTPS(HTTP over SSL)
 
-[HTTPS](https://ko.wikipedia.org/wiki/HTTPS)는 개인정보 보호 차원에서도 중요하지만, 중복 URL을 제거할 수 있어 검색엔진 최적화에 영향을 줍니다. 게다가 구글에서는 SSL 인증서가 있는 경우 [검색 결과에 더 많이 표시](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal)하겠다고 발표한 바 있습니다. 저야 그냥 혹시나 몰라서(개인정보 보호법 무서워요) 설정했고, SEO에 영향을 준다는 사실은 훨씬 나중에 알았습니다. 
+[HTTPS](https://ko.wikipedia.org/wiki/HTTPS)는 개인정보 보호 차원에서도 중요하지만, 중복 URL을 제거할 수 있어 검색엔진 최적화에 영향을 줍니다. 게다가 구글에서도 SSL 인증서가 적용된 웹페이지는 [검색 결과에 더 많이 표시](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal)하겠다고 발표한 바 있습니다. 저야 혹시나 몰라서(개인정보 보호법 무서워서요) 설정했고, SEO에 영향을 준다는 사실은 훨씬 나중에 알았습니다. 
 
 호스팅사를 통해 Codomo에서 SSL 인증서를 구입하고, 호스팅사 관리자페이지에서 SSL을 등록합니다. 하지만, 여기서 끝날 수 있었으면 참 행복했겠지요. 아무리 해도 자동으로 SSL 적용된 화면으로 이동하지 않았습니다. 심지어 인증서가 잘 작동하지 않는 것처럼 보여서, 오히려 보안에 취약한 페이지처럼 보이기도 했죠. 결국 [MVC 설계](https://developer.mozilla.org/ko/docs/Glossary/MVC) 중 컨트롤러(Controller) 부분을 수정하게됩니다. 
 
