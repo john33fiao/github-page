@@ -87,4 +87,4 @@ https://페이지URL?카테고리=모션&게시물번호=1234&검색키워드=UX
 그리고 각 게시물 [메타태그](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)에 표준 버전 정의를 넣어서, 검색엔진이 참고하도록 했습니다. 
 
 > 사실 이렇게 수정하는 과정에서 홈페이지가 몇 번 죽을 뻔 했는데요, 당연히 저는 로컬에 환경을 구성해서 작업했습니다.   
-> CentOS는 위대합니다. 
+> [CentOS](www.centos.org)는 위대합니다. 
