@@ -25,12 +25,11 @@
 
     <div class="container">
 
+        <!-- 콘텐츠 영역 -->
         <div class="row">
-            <!-- <div class="col-1">좌측 여백 영역</div> -->
-
-            <aside class="col-md-2 col-sm-2 d-lg-none d-xl-block">
+            <!-- 좌측 사이드바 -->
+            <nav class="col-lg-2 col-md-3 d-none d-md-block">
                 좌측 GNB 영역
-
 
                 <div>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -43,10 +42,10 @@
                     deserunt mollit anim id est laborum."
                 </div>
 
+            </nav>
 
-            </aside>
-
-            <article class="col-md-8 col-sm-10">
+            <!-- 콘텐츠 영역 -->
+            <article class="col-lg-8 col-md-9">
 
                 <!-- TodoList 콘텐츠 넣어둠 -->
                 <div class="">
@@ -101,10 +100,10 @@
                     culpa qui officia deserunt mollit anim id est laborum."
                 </div>
 
-
             </article>
 
-            <nav class="col-md-2 col-sm-2 d-none d-sm-block">
+            <!-- 우측 사이드바 -->
+            <aside class="col-lg-2 d-none d-lg-block">
                 우측 내비게이션 영역
 
                 <div> 
@@ -118,13 +117,47 @@
                     deserunt mollit anim id est laborum."</div>
 
 
-            </nav>
+            </aside>
 
             <!-- <div class="col-1">
                 우측 여백 영역
             </div> -->
         </div>
     </div>
+
+    <footer class="container-fluid">
+
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>GitHub : <a href="https://github.com/john33fiao">https://github.com/john33fiao</a></p>
+            <p>Email : <a href="mailto:john33fiao@gmail.com">john33fiao@gmail.com</a></p>
+        </div>
+    
+        <!-- 네이버 애널리틱스 -->
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+        <script type="text/javascript">
+            if (!wcs_add) var wcs_add = {};
+            wcs_add["wa"] = "8324c1d2a37110";
+            if (window.wcs) {
+                wcs_do();
+            }
+        </script>
+        <!-- 구글 애널리틱스 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-12LYBHDSYR"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+    
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+    
+            gtag('config', 'G-12LYBHDSYR');
+        </script>
+
+        
+    </footer>
+
 
 </body>
 
