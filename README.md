@@ -40,7 +40,7 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
 - 모바일 최적화 화면 제작
 - 로고 제작 및 등록 -->
 
-### UX
+#### UX
 - [Figma 적용기](https://john33fiao.github.io/uxdesign/)
 <!-- 스크린샷 제작 및 등록 -->
 <!-- - ~~개요 작성~~ 완료
@@ -50,12 +50,12 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
 <!-- - XD 포트폴리오 스크린샷 제작 및 등록 -->
 - UX 리서치 방법론
 
-### 기획
+#### 기획
 - 꿀스테이 업무 진행 과정
 - 와인데이 업무 진행 과정
 - SKT ZEM 업무 진행 과정
 
-### 콘텐츠
+#### 콘텐츠
 
 - [그래서 인공지능이 대체 뭔가요?](https://mets.co.kr/m-lab/precede/so-what-is-artificial-intelligence/7631/)
 - [프로토타이핑의 역할](https://mets.co.kr/m-lab/ux/why-we-make-prototype/6795/)
