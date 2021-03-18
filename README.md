@@ -67,3 +67,8 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
     - 기본 틀 제작
     - 문구 제작 과정
     - 콘텐츠 제작 과정 -->
+
+### Simple Story (on Mets HIT)
+
+- [그래서 인공지능이 대체 뭔가요?](https://mets.co.kr/m-lab/precede/so-what-is-artificial-intelligence/7631/)
+- [프로토타이핑의 역할](https://mets.co.kr/m-lab/ux/why-we-make-prototype/6795/)
