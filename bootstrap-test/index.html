@@ -10,7 +10,9 @@
     <meta name="Description" Content="{메타태그 제목}">
     <link rel="canonical" href="https://john33fiao.github.io/{현재 페이지 URI}">
 
-    <title>{제목} - UX 기획 서요한</title>
+    <!-- <title>{제목} - UX 기획 서요한</title> -->
+
+    <title>{제목} - {작성자}</title>
 
     <!-- 오픈그래프 -->
     <meta property="og:type" content="website">
@@ -33,15 +35,37 @@
     <header class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a href="/" class="navbar-brand">
-                UX 기획 서요한의 포트폴리오
+                <img src="/image/logo.jpg" alt="" width="30" height="30">
+                <!-- UX 기획 서요한의 포트폴리오 -->
+                {헤더 타이틀 영역}
             </a>
-        </div>
-    </header>
-<p>
+            <button class="navbar-toggler d-block d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-</p>
+        </div>
+
+    </header>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <ul class="list-group">
+            <li class="list-group-item"><strong>메뉴</strong></li>
+            <li class="list-group-item list-group-item-action"><a href="/" class="stretched-link"></a>Home</li>
+            <li class="list-group-item list-group-item-action"><a href="/uxdesign/" class="stretched-link"></a>UX Design
+            </li>
+            <li class="list-group-item list-group-item-action"><a href="/web-marketing/" class="stretched-link"></a>SEO
+            </li>
+            <li class="list-group-item list-group-item-action"><a href="#contact" class="stretched-link"></a>Contact
+            </li>
+        </ul>
+    </div>
+
+    <p>
+
+    </p>
     <div class="container">
-        
+
         <div class="row">
 
             <!-- 좌측 사이드바 -->
@@ -67,7 +91,7 @@
                 {페이지 내용}
 
             </article>
-        
+
             <!-- 우측 사이드바 -->
             <aside class="col-lg-2 d-none d-lg-block list-group sidebar">
 
@@ -77,7 +101,7 @@
                     <li><a href="#{콘텐츠 내 소제목}">{콘텐츠 내 소제목}</a></li>
                 </ul>
 
-                
+
             </aside>
 
         </div>
@@ -85,7 +109,7 @@
     </div>
 
     <p>
-        
+
     </p>
 
     <footer class="container">
