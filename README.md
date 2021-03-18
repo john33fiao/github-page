@@ -20,11 +20,13 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
 방법을 배웠습니다. 그리고 그렇게, 큰 문제를 몇 개 해결해 본 뒤에야,   
 **"기획자는 문제를 찾고 해결하는 사람"** 이라는 말뜻을 이해했습니다.
 
+--------
+
 ## 업무노트
 라는 거창한 이름보다는 오히려, 지난 몇 년간 어떻게 걸어왔는지 스스로 기억하려 합니다.    
 그러니 아래같은 단어를 더 좋아합니다. 
 
-### **오답노트** - [UX 기획 서요한](https://john33fiao.github.io)
+### [오답노트](https://john33fiao.github.io)
 
 정답을 찾았는지는 잘 모르겠습니다만, 저 스스로를 위한 해설이 되기를 바랍니다. 
 
@@ -53,6 +55,13 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
 - 와인데이 업무 진행 과정
 - SKT ZEM 업무 진행 과정
 
+### 콘텐츠
+
+- [그래서 인공지능이 대체 뭔가요?](https://mets.co.kr/m-lab/precede/so-what-is-artificial-intelligence/7631/)
+- [프로토타이핑의 역할](https://mets.co.kr/m-lab/ux/why-we-make-prototype/6795/)
+
+---------
+
 ### 웹 개발
 
 #### Java, Web, App
@@ -67,8 +76,3 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
     - 기본 틀 제작
     - 문구 제작 과정
     - 콘텐츠 제작 과정 -->
-
-### Simple Story (on Mets HIT)
-
-- [그래서 인공지능이 대체 뭔가요?](https://mets.co.kr/m-lab/precede/so-what-is-artificial-intelligence/7631/)
-- [프로토타이핑의 역할](https://mets.co.kr/m-lab/ux/why-we-make-prototype/6795/)
