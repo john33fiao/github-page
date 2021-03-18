@@ -24,7 +24,8 @@ User eXperience, UX를 생업으로 삼았지만, "사용자"와 "경험"에는 
 그러니 아래같은 단어를 더 좋아합니다. 
 
 ## 오답노트
-https://john33fiao.github.io
+
+[UX 기획 서요한의 포트폴리오](https://john33fiao.github.io)
 
 정답을 찾았는지는 잘 모르겠습니다만, 해설이 되기를 바랍니다. 
 
