@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" Content="AI 기반의 여행서비스 기획 과정 소개">
+    <link rel="canonical" href="https://john33fiao.github.io/uxdesgin/">
+
+    <title>여행서비스 - UX 기획 서요한</title>
+
+    <!-- 오픈그래프 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="여행서비스 - UX 기획 서요한">
+    <meta property="og:description" content="AI 기반의 여행서비스 기획 과정 소개">
+    <meta property="og:image" content="https://john33fiao.github.io/image/writing-UID-with-figma.png">
+    <meta property="og:url" content="https://john33fiao.github.io/uxdesign">
+
+    <!-- 부트스트랩 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+
+    <header class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                <img src="/image/logo.jpg" alt="" width="30" height="30">
+                UX 기획 서요한의 포트폴리오
+            </a>
+            <button class="navbar-toggler d-block d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </header>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <ul class="list-group">
+            <li class="list-group-item"><strong>메뉴</strong></li>
+            <li class="list-group-item list-group-item-action"><a href="/" class="stretched-link"></a>Home</li>
+            <li class="list-group-item list-group-item-action"><a href="/uxdesign/" class="stretched-link"></a>UX Design
+            </li>
+            <li class="list-group-item list-group-item-action"><a href="/web-marketing/" class="stretched-link"></a>SEO
+            </li>
+            <li class="list-group-item list-group-item-action"><a href="#contact" class="stretched-link"></a>Contact
+            </li>
+        </ul>
+    </div>
+
+    <p>
+
+    </p>
+    <div class="container">
+
+        <div class="row">
+
+            <!-- 좌측 사이드바 -->
+            <nav class="col-lg-2 col-md-3 d-none d-md-block">
+                <p>
+
+                </p>
+                <ul class="list-group-flush">
+                    <li class="list-group-item"><strong>메뉴</strong></li>
+                    <li class="list-group-item list-group-item-action"><a href="/" class="stretched-link"></a>Home</li>
+                    <li class="list-group-item list-group-item-action"><a href="/uxdesign/"
+                            class="stretched-link"></a>UX Design</li>
+                    <li class="list-group-item list-group-item-action"><a href="/web-marketing/"
+                            class="stretched-link"></a>SEO</li>
+                    <li class="list-group-item list-group-item-action"><a href="#contact"
+                            class="stretched-link"></a>Contact</li>
+                </ul>
+            </nav>
+
+            <article class="col-lg-8 col-md-9" id="content" style="word-break: keep-all;">
+                <p>
+
+                </p>
+
+                <!-- 콘텐츠 영역 -->
+                <h1 class="h1" id="여행서비스">여행서비스</h1>
+                <h2 class="h2" id="개요">개요</h2>
+                <p><a href="#%EC%97%AC%ED%96%89%EC%84%9C%EB%B9%84%EC%8A%A4">여행서비스</a></p>
+                <ul>
+                    <li><a href="#%EA%B8%B0%ED%9A%8D-%EA%B3%BC%EC%A0%95">기획 과정</a></li>
+                    <li><a href="#%EC%9A%A9%EC%96%B4-%EC%A0%95%EC%9D%98">용어 정의</a></li>
+                    <li><a href="#%EC%97%AC%ED%96%89%EC%9D%98-%EB%AA%A9%EC%A0%81">여행의 목적</a></li>
+                    <li><a href="#%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4">제약조건</a></li>
+                    <li><a href="#%EB%8B%88%EC%A6%88">니즈</a></li>
+                    <li><a href="#%EC%82%AC%EC%9A%A9%EC%9E%90-%ED%96%89%EB%8F%99">사용자 행동</a></li>
+                    <li><a href="#%EB%B6%88%ED%8E%B8%EC%82%AC%ED%95%AD">불편사항</a></li>
+                    <li><a
+                            href="#%EC%82%B0%EC%97%85%ED%98%81%EB%AA%85%EA%B3%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%9C%EB%85%90">산업혁명과
+                            디자인 개념</a>
+                        <ul>
+                            <li><a href="#%EA%B0%9C%EC%84%A0%EB%B0%A9%EC%95%88-%EC%98%88%EC%8B%9C">개선방안 예시</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#ai%EB%9E%80">AI란?</a></li>
+                </ul>
+                <p><a href="#ux-%EA%B0%9C%EC%84%A0%EB%B0%A9%EC%95%88">UX 개선방안</a></p>
+                <ul>
+                    <li><a href="#%EA%B8%B0%EC%A1%B4-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95">기존 의사결정
+                            과정</a></li>
+                    <li><a href="#uiux-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EA%B0%9C%EC%84%A0">UI/UX 관점에서 개선</a></li>
+                    <li><a href="#aiux-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C-%EA%B0%9C%EC%84%A0">AI+UX 관점에서 개선</a>
+                        <ul>
+                            <li><a href="#%EB%A7%A5%EB%9D%BD-%EC%9D%B4%ED%95%B4">맥락 이해</a> - <strong>여기까지 개요 제작
+                                    완료</strong></li>
+                            <li><a href="#%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%97%B0%EC%82%B0">빅데이터 연산</a></li>
+                            <li><a href="#%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%A0%9C%EC%95%88">최적화된 제안</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h2 class="h2" id="기획-과정">기획 과정</h2>
+                <ol>
+                    <li>리서치 &amp; 분석<ul>
+                            <li>여행에 대한 일반적인 개념 정의</li>
+                            <li>시장 조사</li>
+                            <li>사용자 행동 수집</li>
+                            <li>관련 키워드 수집</li>
+                            <li>시나리오 정의</li>
+                        </ul>
+                    </li>
+                    <li>문제 이해와 공감<ul>
+                            <li>니즈 분석</li>
+                            <li>불편사항 수집 및 분석</li>
+                            <li>제약조건 분석</li>
+                        </ul>
+                    </li>
+                    <li>대안 제시<ul>
+                            <li>규모의 관점에서 개선방안 제시</li>
+                            <li>기술적 관점에서 개선방안 제시</li>
+                            <li>UX 관점에서 기존 경험 개선방안 제시</li>
+                            <li><strong>AI UX 관점에서 개선방안 제시</strong> &lt;-- 이 게시물의 목적</li>
+                        </ul>
+                    </li>
+                    <li>개념 증명<ul>
+                            <li>UI/UX 제작</li>
+                            <li>실제 서비스 제공</li>
+                            <li>사용자 행동 추적 및 퍼널 분석</li>
+                        </ul>
+                    </li>
+                    <li>전환<ul>
+                            <li>분석결과를 바탕으로 서비스 개선</li>
+                            <li>기존 기능에 대해 추가/수정/삭제 작업 진행</li>
+                        </ul>
+                    </li>
+                </ol>
+                <blockquote>
+                    <p>위 과정을 반복하며, 이는 애자일/린/그로스해킹 등 다양한 용어 존재</p>
+                </blockquote>
+                <h2 class="h2" id="용어-정의">용어 정의</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>단어</th>
+                            <th>원어</th>
+                            <th align="left">설명</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>위치</td>
+                            <td>location</td>
+                            <td align="left">위/경도로 표시 가능한 지도상의 특정 지점</td>
+                        </tr>
+                        <tr>
+                            <td>문화</td>
+                            <td>culture</td>
+                            <td align="left">특정 위치에서 거주하는 사람들이 보이는 생활 양식</td>
+                        </tr>
+                        <tr>
+                            <td>장소</td>
+                            <td>place</td>
+                            <td align="left">특정 위치를 다른 위치와 구분할 수 있도록 하는 문화/기후/경관 등의 총체</td>
+                        </tr>
+                        <tr>
+                            <td>경험</td>
+                            <td>experience</td>
+                            <td align="left">보고 듣고 말하는 등, 특정 장소에 존재하는 사용자(주체)의 인지/행동을 포괄</td>
+                        </tr>
+                        <tr>
+                            <td>일상</td>
+                            <td>daily life</td>
+                            <td align="left">생산활동이나 학습, 가사노동 등 반복적으로 과업을 수행하는 시-공간</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <blockquote>
+                    <p>여행과 지리학은 매우 관계가 깊음</p>
+                </blockquote>
+                <h2 class="h2" id="여행의-목적">여행의 목적</h2>
+                <p>여행을 왜 가는가?</p>
+                <ul>
+                    <li>&lt;낯선 곳에서 나를 만나다&gt;<ul>
+                            <li>지금-여기에서 향유할 수 없는 경험을 획득하기 위해서</li>
+                            <li>자신의 위치를 변경하여 새로운 장소를 경험하기 위해서</li>
+                        </ul>
+                    </li>
+                    <li>평소와는 다른 일상을 획득하려는 목적<ul>
+                            <li>일상과 다른 시공간에 존재함으로써 경험 방식 변경</li>
+                            <li>일상: 생산 =/= 여행: 소비</li>
+                            <li>일상에서 벗어나 휴식을 취하기 위해서</li>
+                        </ul>
+                    </li>
+                    <li>사교적 목적<ul>
+                            <li>일상을 벗어나는 경험을 자신에게 친근한 이들과 공유</li>
+                            <li>새로운 인연을 새로운 장소에서 획득</li>
+                            <li>평소와 다른 형태의 인간관계를 향유</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>일상에서 벗어나 새로운 경험을 획득</p>
+                </blockquote>
+                <h2 class="h2" id="제약조건">제약조건</h2>
+                <p>여행을 마음대로 가지 못하는 이유는?</p>
+                <ul>
+                    <li>비용<ul>
+                            <li>생산활동에서 일정기간동안 벗어나야함</li>
+                            <li>대부분의 경우 여행 자체는 소비활동에 해당함</li>
+                            <li>이동 자체에 대한 비용 존재</li>
+                        </ul>
+                    </li>
+                    <li>일정<ul>
+                            <li>일정기간 생산활동을 중단해도 자신의 일상으로 돌아갈 수 있어야함</li>
+                            <li>해당 기간동안 거주/이동/활동 위치를 변경해서 소비가 가능해야함</li>
+                            <li>여행 일정 자체를 검토(자료수집)/확정(합의)하는 시간 또한 필요함</li>
+                        </ul>
+                    </li>
+                    <li>신체조건<ul>
+                            <li>해당 위치의 거주지, 기후, 식음료, 교통수단 등은 지금-여기와는 다르게 작동</li>
+                            <li><strong>체력</strong>은 여행에 있어 중요한 이슈 중 하나임</li>
+                        </ul>
+                    </li>
+                    <li>취향<ul>
+                            <li>공유에 대한 목적 포함</li>
+                            <li><strong>신체조건</strong>의 제약 참고</li>
+                            <li>여행 자체는 일상과 다르기 때문에 <strong>적정 수준의 고통</strong>을 스스로에게 부여하는 행위라고 이해할 수 있음</li>
+                        </ul>
+                    </li>
+                    <li>동행인<ul>
+                            <li>자신의 취향뿐만 아니라 동행인의 취향(및 제약조건)을 함께 고려해야함</li>
+                            <li>여행 준비 단계에서 일정에 대해 <strong>합의</strong>하는 비용이 추가로 발생할 수 있음</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>제약조건 하에서 최적화를 위한 과정에 인지적 자원이 과다하게 필요 &gt; 휴리스틱 적용</p>
+                </blockquote>
+                <h2 class="h2" id="니즈">니즈</h2>
+                <p>여행가서 뭐 할 건데?</p>
+                <ul>
+                    <li>"여행가고싶다"<ul>
+                            <li>여행가서 사진 남기고싶다</li>
+                            <li>일상에서 벗어나 쉬고싶다</li>
+                            <li>지겹지 않은 음식을 먹고싶다</li>
+                            <li>평소와는 다른 풍경을 보고싶다</li>
+                        </ul>
+                    </li>
+                    <li>"사진밖에 안남는다"<ul>
+                            <li>여행 기록을 다시 둘러보는 일은 많지 않다</li>
+                            <li>하지만 사진으로 남겨두면 당시의 기억을 쉽게 되살릴 수 있다</li>
+                            <li>해당 장소에 대한 경험 중 긍정적인 부분을 기록으로 남겨둔다</li>
+                            <li>사진 등의 기록(과거 행적)을 통해 현재를 잠시나마 벗어난다</li>
+                        </ul>
+                    </li>
+                    <li>"실패하고 싶지 않다"<ul>
+                            <li>자신이 들인 비용(인지/금전/체력적 노력)에 비해 편익(여행으로 인한 즐거움/기쁨 등)이 더 커야한다</li>
+                            <li>획득한 정보가 충분하여 최적의 선택을 하기를 바란다</li>
+                            <li>해당 장소가 "좋은 곳"이라는 확신이 필요하다</li>
+                            <li>그와 동시에 자신에게 "적당히 익숙한" 문화만을 즐길 수 있다</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>적당한 가성비를 지키며 일상을 벗어나 새로운 경험을 얻고 추억을 남기는 여행을 원한다</p>
+                </blockquote>
+                <h2 class="h2" id="사용자-행동">사용자 행동</h2>
+                <p>그래서 지금 무엇을 하는데?</p>
+                <ul>
+                    <li>여행가고 싶다는 생각 시작<ul>
+                            <li>특정 장소에 대한 정보 획득(가설 단계)</li>
+                            <li>여행을 위한 기회가 생겼음을 확인(제약 일부 해소)</li>
+                        </ul>
+                    </li>
+                    <li>여행지 정보 수집<ul>
+                            <li>자신이 해당 장소에서 무엇을 하고싶은지</li>
+                            <li>예산, 일정 등은 어느정도 사용이 가능한지</li>
+                            <li>여행에 대한 동반자가 존재하는지</li>
+                        </ul>
+                    </li>
+                    <li>계획 수립<ul>
+                            <li>특정한 기간과 예산을 제약조건으로 하고</li>
+                            <li>출발/도착시간 기준으로 숙소/교통수단 등 예약</li>
+                            <li>여행지 내 방문하려는 장소 확정<ul>
+                                    <li>음식 + 숙박</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>준비물 정리<ul>
+                            <li>의복 등이 필요한 경우 준비</li>
+                            <li>(해외인 경우) 여권, 언어 등 추가 준비</li>
+                        </ul>
+                    </li>
+                    <li>여행 돌입<ul>
+                            <li>여행을 다닌다</li>
+                            <li>사진 등으로 기록을 남긴다<ul>
+                                    <li>단순히 <strong>해당 장소가 마음에 든다</strong>는 이유 존재</li>
+                                    <li>사진을 공유하려는 목적</li>
+                                </ul>
+                            </li>
+                            <li>주변 음식점을 찾는다<ul>
+                                    <li>문이 닫거나 하는 등 문제 발생 시</li>
+                                    <li>이동 중 늦어지거나 지금 당장 배고프거나 등</li>
+                                </ul>
+                            </li>
+                            <li>숙박<ul>
+                                    <li>휴식 및 재충전</li>
+                                    <li>숙박 자체가 목적인 경우도 존재</li>
+                                </ul>
+                            </li>
+                            <li>귀가<ul>
+                                    <li>다음번 여행을 준비</li>
+                                    <li>기록 정리</li>
+                                    <li>일상으로 돌아가기 위한 준비(짐풀기 등)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>여행가서 놀고 먹고 마시고 자고 다 끝낸 뒤 일상으로 돌아온다</p>
+                </blockquote>
+                <h2 class="h2" id="불편사항">불편사항</h2>
+                <p>여행 가기 위해 마음먹기까지가 꽤 길다</p>
+                <ul>
+                    <li>실패에 대한 두려움</li>
+                    <li>제약조건의 귀찮음</li>
+                    <li>정보 획득이 어려움</li>
+                    <li>동행인의 취향 및 제약조건이 불일치함</li>
+                    <li>기록 관리의 번거로움</li>
+                </ul>
+                <p>실패에 대한 두려움</p>
+                <ul>
+                    <li>"너 ~가면서 ~도 안가봤단말야?"</li>
+                    <li>"왜 그리 비쌀 때 다녀왔어?"</li>
+                    <li>"거기 말고 ~가 훨씬 맛있는데"</li>
+                    <li>"뭐야 거기 유행 지났잖아"</li>
+                    <li>"이런 지저분한 것은 왜 찍었니?"</li>
+                    <li>"메모리카드 망가져서 사진 다 날아갔다며"</li>
+                    <li>"야 진작 말하지 거기 내가 잘 아는 분 계시는데"</li>
+                    <li>"거기까지 가서 숙소에서 혼자 놀았냐?"</li>
+                </ul>
+                <p>사진 등 기록이 쉽지 않다</p>
+                <ul>
+                    <li>사진 찍을만한 장소가 별로 없다<ul>
+                            <li>찍어서 자랑해도 별로 자랑거리가 아니라서</li>
+                            <li>애초에 안이쁜 곳이 더 많아서</li>
+                            <li>사진 자체는 현지인이 더 많이 찍어서</li>
+                            <li>무엇이 아름다운지 판단하기 어려워서</li>
+                        </ul>
+                    </li>
+                    <li>사진 공유해도 별로 반응 없다<ul>
+                            <li>이미 많은 사람이 다녀간 곳이므로</li>
+                            <li>사진 촬영 자체에 대해 역량이 부족해서</li>
+                            <li>자신의 지인 정도만 팔로어로 있어서</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>스스로 자신의 취향이 어떤 것인지 잘 모른다</p>
+                <ul>
+                    <li>식음료 취향<ul>
+                            <li>자신에게 익숙한 것에서 <strong>적당히 벗어난</strong> 경우만 가능</li>
+                            <li>새로운 것이지만 사진찍기도 예뻐야함</li>
+                            <li>금전적 제약으로 인한 선택 제한</li>
+                        </ul>
+                    </li>
+                    <li>숙박 취향<ul>
+                            <li>온/습도, 냄새, 소음 등이 예상보다 많이 불편한 경우</li>
+                            <li>잠들고 일어나는 시간이 동행인과 다른 경우</li>
+                            <li>숙소 근처에 유흥거리가 존재하는지</li>
+                        </ul>
+                    </li>
+                    <li>미의식<ul>
+                            <li>미의식은 대부분의 경우 상대적임</li>
+                            <li>자신은 예쁘다고 찍었는데 반응 없으면?</li>
+                        </ul>
+                    </li>
+                    <li>체력 자각<ul>
+                            <li>누군가는 하루에 20km를 걷지만, 누군가는 5km도 멀 수 있음</li>
+                            <li>장애 등으로 인한 제약 - 지각/운동능력</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>정보를 획득하기가 어렵다</p>
+                <ul>
+                    <li>정보 신뢰도 문제<ul>
+                            <li>광고 아님?</li>
+                            <li>오래된 자료 아님?</li>
+                        </ul>
+                    </li>
+                    <li>정보 제공자와의 취향 불일치 문제<ul>
+                            <li>얘가 그냥 싸구려 취향 아님?</li>
+                            <li>너 솔의눈 오차즈케 만들고, 민트초코 안주로 오비라거 먹고 그러잖아</li>
+                        </ul>
+                    </li>
+                    <li>정보 부족 문제<ul>
+                            <li>알려지지 않은 여행지</li>
+                            <li>위험/낙후/고립된 지역</li>
+                            <li>한국어 정보 없음</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>불편을 단순히 <strong>낭만</strong>이라 치부하기에는 자원(인지, 돈, 시간)이 무한하지 않음</p>
+                </blockquote>
+                <h2 class="h2" id="산업혁명과-디자인-개념">산업혁명과 디자인 개념</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th align="center">구분</th>
+                            <th align="center">키워드</th>
+                            <th>요약</th>
+                            <th>예시</th>
+                            <th align="center">디자인 개념</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center">1차</td>
+                            <td align="center">규모</td>
+                            <td>기계의 발명, 공업화</td>
+                            <td>더 큰 마차와 편안한 좌석</td>
+                            <td align="center">심미성</td>
+                        </tr>
+                        <tr>
+                            <td align="center">2차</td>
+                            <td align="center">기술</td>
+                            <td>전기, 전화, 대량생산</td>
+                            <td>자동차와 비행기</td>
+                            <td align="center">조형성, Idendity</td>
+                        </tr>
+                        <tr>
+                            <td align="center">3차</td>
+                            <td align="center">UI/UX</td>
+                            <td><a href="https://mets.co.kr/m-lab/story/ces-2019-smarthome-appliance-research/7064/">컴퓨터,
+                                    자동차, 인터넷, 정보화</a></td>
+                            <td><a href="https://mets.co.kr/m-lab/ux/share-your-day-live-stream/6696/">소셜 미디어와 추천서비스</a>
+                            </td>
+                            <td align="center"><a href="https://mets.co.kr/m-lab/ux/why-we-make-prototype/6795/">사용자
+                                    중심/경험</a></td>
+                        </tr>
+                        <tr>
+                            <td align="center">4차</td>
+                            <td align="center">AI+UX</td>
+                            <td><a href="https://mets.co.kr/m-lab/precede/so-what-is-artificial-intelligence/7631/">지능화,
+                                    인공지능, 개인화</a></td>
+                            <td><a href="https://mets.co.kr/m-lab/ux/chatbot-local-is-our-future/6694/">인공지능 비서</a></td>
+                            <td align="center"><a href="https://mets.co.kr/m-lab/precede/the-value-of-vr/6637/">개인화된
+                                    경험</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h3 class="h3" id="개선방안-예시">개선방안 예시</h3>
+                <p>1차 산업혁명: 더 큰 마차와 편안한 좌석</p>
+                <ul>
+                    <li>개별 여행에 더 많은 자원(돈+시간) 투입</li>
+                    <li>더 많은 사람과 여행에 동행</li>
+                </ul>
+                <p>2차 산업혁명: 자동차와 비행기</p>
+                <ul>
+                    <li>여행사에서 선별한 코스 순응</li>
+                    <li>여행 잡지 등에서 정리된 정보 획득</li>
+                </ul>
+                <p>3차 산업혁명: 소셜 미디어와 추천서비스</p>
+                <ul>
+                    <li>일정관리</li>
+                    <li>기록관리 및 공유</li>
+                    <li>자동화 추천서비스</li>
+                </ul>
+                <p>4차 산업혁명: 인공지능 비서</p>
+                <ul>
+                    <li>데이터 기반 여행 보조</li>
+                    <li>인공지능의 <strong>스마트한</strong> 여행 가이드</li>
+                </ul>
+                <blockquote>
+                    <p>UX 관점에 의한 개선방안에 집중할 예정임</p>
+                </blockquote>
+
+                <h2 class="h2" id="ai란">AI란?</h2>
+                <p>라이트브레인 - <a href="https://blog.rightbrain.co.kr/?p=9428">AI/UX 디자인 시리즈 - 4) 왜 AI/UX인가?</a></p>
+                <ol>
+                    <li>
+                        <p>인간을 이해하고</p>
+                        <ul>
+                            <li>인간이 처한 맥락을 이해함</li>
+                            <li>주변 사물을 인식하고</li>
+                            <li>상황과 공간을 이해하며</li>
+                            <li>사용자의 이해관계와 취향, 상태, 사회-경제-상태를 인식</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>인간을 보조하며</p>
+                        <ul>
+                            <li>사람이 하기 귀찮은 일</li>
+                            <li>인간이 가진 능력의 한계 극복</li>
+                            <li>예시: 검색(필터링 시스템)<ul>
+                                    <li>무한에 가까운 정보</li>
+                                    <li>원하는 정보만 취합</li>
+                                    <li>화면 등에 표시</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>인간이 할 일을 대체한다</p>
+                        <ul>
+                            <li>인간의 지각능력을 뛰어넘는 센서 보유</li>
+                            <li>매우 많은 계산을 단시간에 처리</li>
+                            <li>동일한 과업을 적은 비용으로 처리</li>
+                            <li>처리 기록을 모든 기기가 공유</li>
+                            <li>기기의 대체 용이성</li>
+                        </ul>
+                    </li>
+                </ol>
+                <blockquote>
+                    <p>더 많은 정보를 더 빨리 처리할 수 있음</p>
+                </blockquote>
+
+
+                <h1 class="h1" id="ux-개선방안">UX 개선방안</h1>
+                <h2 class="h2" id="기존-의사결정-과정">기존 의사결정 과정</h2>
+                <p>특정 식당에 방문한다고 가정했을 때</p>
+                <ol>
+                    <li>해당 장소로 가는 길을 찾고<ul>
+                            <li>각 경로별 교통수단 정보 찾고</li>
+                            <li>걸리는 시간을 확인하고</li>
+                            <li>어느 교통수단이 <strong>덜 힘들까</strong>도 같이 고민함</li>
+                            <li>출퇴근 시간대를 피해서 덜 혼잡할 시간을 택함</li>
+                        </ul>
+                    </li>
+                    <li>해당 장소의 정보를 확인하고<ul>
+                            <li>블로그, 인스타그램 등 리뷰 보고</li>
+                            <li>메뉴랑 별점, 가격 보고</li>
+                            <li>이번달 카드 얼마나 썼는지도 생각해봄</li>
+                        </ul>
+                    </li>
+                    <li>이동하면서도 계획을 수정하고<ul>
+                            <li>열차가 지연된다거나</li>
+                            <li>사람이 많아서 못탔다거나</li>
+                            <li>가는 중에 전화했는데 문을 닫았거나</li>
+                            <li>가다가 지쳐서 잠시 앉아서 쉬었다 갈 수 있음</li>
+                        </ul>
+                    </li>
+                    <li>장소에 도착한 뒤에<ul>
+                            <li>대기가 있으면 기다리거나 옮기고</li>
+                            <li>입장한 뒤에 자리를 잡고</li>
+                            <li>메뉴를 골라서 시키고</li>
+                            <li>먹으며 사진을 찍고</li>
+                            <li>리뷰를 남긴다</li>
+                        </ul>
+                    </li>
+                </ol>
+                <blockquote>
+                    <p>위 1~4 과정 대부분에 AI가 개입하여 최적화된 제안을 제공할 수 있음</p>
+                </blockquote>
+                <h2 class="h2" id="uiux-관점에서-개선">UI/UX 관점에서 개선</h2>
+                <ul>
+                    <li>일정관리<ul>
+                            <li>일정 수립 및 공유(협업) 기능</li>
+                            <li>이동시간 알림 기능</li>
+                        </ul>
+                    </li>
+                    <li>기록관리 및 공유<ul>
+                            <li>수립한 일정 내에 사진/영상/텍스트 기록 추가기능</li>
+                            <li>자신이 촬영한 사진을 지도 위에서 확인</li>
+                            <li>여행코스를 게시물로 공유하여 광고수익 획득</li>
+                            <li>여행사진을 SNS에 공유하여 좋아요 등으로 소통</li>
+                        </ul>
+                    </li>
+                    <li>자동화 추천서비스<ul>
+                            <li>위치 기반으로 주변 식당이나 관광지 추천</li>
+                            <li>검색 기록을 바탕으로 숙소, 렌탈 업체 추천</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <p>기존 앱/서비스에서도 제공하는 기능</p>
+                </blockquote>
+                <h2 class="h2" id="aiux-관점에서-개선">AI+UX 관점에서 개선</h2>
+                <h3 class="h3" id="맥락-이해">맥락 이해</h3>
+                <h4 class="h4" id="데이터-수집-및-라벨링">데이터 수집 및 라벨링</h4>
+                <p><a
+                        href="https://chuvpilo.medium.com/ai-research-rankings-2020-can-the-united-states-stay-ahead-of-china-61cf14b1216">2020년
+                        AI 연구 지수</a></p>
+                <ul>
+                    <li>구글(1위), MS(6위), 페이스북(8위), 카이스트(20위), IBM(21위), 서울대(44위), 애플(86위)</li>
+                </ul>
+                <p>AI에 있어 가장 중요한 것은 <strong>좋은 데이터</strong>임</p>
+                <ul>
+                    <li>구글은 세계에서 가장 많은 데이터를 보유한 기업이므로, AI 연구에 있어서도 선구주자임</li>
+                    <li>애플의 Siri 서비스 제공 또한 자연어 및 음성 데이터 수집 맥락으로 이해할 수 있음</li>
+                    <li>중국은 <a href="https://biz.chosun.com/site/data/html_dir/2019/12/19/2019121900144.html">낮은 인건비로
+                            데이터 라벨링 가능</a>해서 순위 급상승중<ul>
+                            <li>얘네는 AI 연구윤리가 없잖아요... <del>아 있기야 하겠죠</del></li>
+                            <li>시민 대상으로 동의 없이 정보 수집 막 할 수 있으니까요</li>
+                        </ul>
+                    </li>
+                    <li>한국은 통신망이 좋고(전국 4G, 대도시 5G) 인터넷 보급률이 높아 나름 상승세 <del>대학원생이 저렴함</del></li>
+                </ul>
+                <p>아래는 일단 내가 접해본 서비스만 적어봄 <del>애플페이 써봤지롱</del></p>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>단체명</th>
+                            <th>사진</th>
+                            <th>문자</th>
+                            <th>결제</th>
+                            <th>검색</th>
+                            <th>키패드</th>
+                            <th>소리</th>
+                            <th>밝기(조도)</th>
+                            <th>게시물(조회)</th>
+                            <th>운동(가속도)</th>
+                            <th>위치(GPS)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>구글</td>
+                            <td>포토</td>
+                            <td>메시지</td>
+                            <td>구글페이</td>
+                            <td>검색</td>
+                            <td>키보드</td>
+                            <td>어시스턴트</td>
+                            <td>안드로이드</td>
+                            <td>GA</td>
+                            <td>헬스</td>
+                            <td>구글지도</td>
+                        </tr>
+                        <tr>
+                            <td>애플</td>
+                            <td>사진</td>
+                            <td>아이메시지</td>
+                            <td>애플페이</td>
+                            <td>Spotlight</td>
+                            <td>글자제안</td>
+                            <td>Siri</td>
+                            <td>iOS</td>
+                            <td>앱스토어 커넥트</td>
+                            <td>건강</td>
+                            <td>애플지도</td>
+                        </tr>
+                        <tr>
+                            <td>삼성</td>
+                            <td></td>
+                            <td>메시지</td>
+                            <td>삼성페이</td>
+                            <td></td>
+                            <td>키보드</td>
+                            <td>빅스비</td>
+                            <td>원UI</td>
+                            <td></td>
+                            <td>삼성헬스</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>MS</td>
+                            <td>원드라이브</td>
+                            <td>SMS Organizer</td>
+                            <td></td>
+                            <td>Bing</td>
+                            <td></td>
+                            <td>코타나</td>
+                            <td></td>
+                            <td>Web Analytics</td>
+                            <td></td>
+                            <td>Bing Map</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>그 외 수집한 데이터를 <strong>조합</strong>하여 사용자의 맥락을 더 구체적으로 인식함</p>
+                <ul>
+                    <li>사진: 영수증, 풍경, 인물, 음식 등</li>
+                    <li>음성: 지하철, 도로, 자동차 내/외부, 개인 공간, 미디어 시청 등</li>
+                    <li>위치: 가속도와 결합하여 이동수단 및 교통 혼잡도 파악<ul>
+                            <li>참고: <a href="https://www.wired.com/story/99-phones-fake-google-maps-traffic-jam/">스마트폰
+                                    99개로 구글맵 속이기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3 class="h3" id="빅데이터-연산">빅데이터 연산</h3>
+                <p>도로 상황(교통 API), 대중교통 사용량(혼잡도 통계), 리뷰/별점(지도), 취향분석, 사용자 반응, 키워드(NLP)</p>
+                <h3 class="h3" id="최적화된-제안">최적화된 제안</h3>
+                <ul>
+                    <li>최적화 제안: 다양한 시나리오 존재 가능<ul>
+                            <li>데이터 기반 여행 보조<ul>
+                                    <li>도로 상황 및 대중교통 혼잡도 기반 경로 제안</li>
+                                    <li>리뷰/별점, 사용자 반응 및 키워드 기반 주변 장소 제안</li>
+                                </ul>
+                            </li>
+                            <li>인공지능의 <strong>스마트한</strong> 여행 가이드<ul>
+                                    <li>예약완료 이메일을 자동으로 여행일정에 등록</li>
+                                    <li>여행기간동안 업로드된 사진으로 여행코스 생성</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>그 외에도 위에서 제시한 <a href="#%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4">제약조건</a>, <a
+                            href="#%EB%8B%88%EC%A6%88">니즈</a>, <a href="#%EB%B6%88%ED%8E%B8%EC%82%AC%ED%95%AD">불편사항</a>
+                        등 모두에 AI가 도움을 줄 수 있음</li>
+                </ul>
+
+
+            </article>
+
+            <!-- 우측 사이드바 -->
+            <aside class="col-lg-2 d-none d-lg-block list-group sidebar">
+                <p>
+
+                </p>
+                <p class="border-bottom">구성</p>
+
+                <ul class="list-unstyled list-group-flush">
+                    <li><a href="#figma-소개">Figma 소개</a></li>
+                    <li><a href="#figma의-장점">Figma의 장점</a></li>
+                    <li><a href="#figma의-단점">Figma의 단점</a></li>
+                    <li><a href="#결론">결론 및 참고</a></li>
+                </ul>
+
+
+            </aside>
+
+        </div>
+
+    </div>
+
+    <p>
+
+    </p>
+
+    <footer class="container">
+
+        <div class="row" id="contact">
+            <h2 class="h2">Contact</h2>
+            <p>GitHub : <a href="https://github.com/john33fiao">https://github.com/john33fiao</a></p>
+            <p>Email : <a href="mailto:john33fiao@gmail.com">john33fiao@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <!-- 네이버 애널리틱스 -->
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+        if (!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "8324c1d2a37110";
+        if (window.wcs) {
+            wcs_do();
+        }
+    </script>
+    <!-- 구글 애널리틱스 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-12LYBHDSYR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-12LYBHDSYR');
+    </script>
+</body>
+
+</html>
